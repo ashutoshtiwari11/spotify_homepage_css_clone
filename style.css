@@ -1,0 +1,85 @@
+*{
+  color: #ffffff;
+}
+body{
+  background-color: black;
+}
+nav ul li{
+  padding-top: 10px;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+ul {
+  padding-top: 50px;
+}
+.aside{
+
+  top: 100px;
+  max-width: 400px;
+  padding: 20px;
+  border-color: #313131;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.horizontal_nav ul{
+  margin: 0px;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  padding: 30px;
+  flex-flow: row;
+  justify-content: flex-end;
+  list-style: none;
+  justify-content: space-around;
+}
+.button a{
+  border-radius: 10px;
+  border: solid white 2px;
+  padding: 4px;
+  background-color: white;
+  color: black;
+}
+main{
+  position: relative;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+}
+ .heading{
+  font-size: 12px;
+}
+.focus, .Playlist{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+   justify-content: space-around;
+}
+.focus div, .Playlist div{
+  font-size: 12px;
+    border-radius: 10px;
+  display: flex;
+ flex-direction: column;
+  background-color: #313131;
+  align-items: center;
+}
+.focus div img, .Playlist div img{
+  padding: 12px;
+  max-width: 180px;
+  max-height: 250px;
+
+}
+.focus caption , .Playlist caption{
+  font-size: 12px;
+}
+hr{
+  margin-top: 40px;
+margin-bottom: 50px;
+ width: 1px;
+ color: #9f9f9f;
+  width: 90%;
+}
